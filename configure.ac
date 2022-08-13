@@ -20,7 +20,7 @@ AM_CONDITIONAL([USE_NLS], [test "x${USE_NLS}" = "xyes"])
 
 YELP_HELP_INIT
 
-AC_OUTPUT([
+AC_CONFIG_FILES([
 Makefile
 mate-user-guide.desktop.in
 po/Makefile.in
