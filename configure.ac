@@ -3,7 +3,7 @@ AC_INIT([mate-user-guide],
         [https://github.com/Libre-MATE/mate-user-guide/issues],
         [mate-user-guide],
         [https://github.com/Libre-MATE/mate-user-guide/])
-
+AC_COPYRIGHT([Copyright (C) 2022 Libre MATE])
 AM_INIT_AUTOMAKE([1.11 dist-xz no-dist-gzip])
 AM_SILENT_RULES([yes])
 
